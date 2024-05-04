@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 662486539
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: reanimator
+      Dependencies: {}

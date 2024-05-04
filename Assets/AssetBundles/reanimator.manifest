@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 354477789
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8742b014bc9d4b25242dcddb196b9509
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2ec914f4656f4d868fcd7f0bcef42037
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8742b014bc9d4b25242dcddb196b9509
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: b1a86678fffe49d34317e7b693ae7586, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df8a8ec1fb4e08d01a3bd16540b76614, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/Reanimator.prefab
+Dependencies: []
