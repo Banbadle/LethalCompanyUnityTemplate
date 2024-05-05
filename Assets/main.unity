@@ -417,10 +417,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Reanimator
       objectReference: {fileID: 0}
-    - target: {fileID: 6160141180230753798, guid: 523ca78a1146ba3409e6c8a69f11526c,
+    - target: {fileID: 7470987696043424917, guid: 523ca78a1146ba3409e6c8a69f11526c,
+        type: 3}
+      propertyPath: yOffset
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7470987696043424917, guid: 523ca78a1146ba3409e6c8a69f11526c,
+        type: 3}
+      propertyPath: collisionPointCheck.y
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7648418317197078082, guid: 523ca78a1146ba3409e6c8a69f11526c,
         type: 3}
       propertyPath: GlobalObjectIdHash
-      value: 211927583
+      value: 2315498859
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -728,5 +738,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 1762255331}
   - {fileID: 93615317}
-  - {fileID: 216350453}
   - {fileID: 6893169718783800264}
+  - {fileID: 216350453}

@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1962144661291135487}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.25, z: -0.1}
+  m_LocalPosition: {x: 0, y: 1.25, z: 0}
   m_LocalScale: {x: 1, y: 2.5, z: 1.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -74,11 +74,11 @@ MonoBehaviour:
   mainMesh: {fileID: 5401090447898985841}
   mainTransform: {fileID: 86471602928430670}
   placeObjectCollider: {fileID: 3687258853312457207}
-  yOffset: 0
+  yOffset: 1.25
   overrideWallOffset: 0
   wallOffset: 0
-  collisionPointCheck: {x: 0, y: 0, z: 0}
-  doCollisionPointCheck: 0
+  collisionPointCheck: {x: 0, y: 1.25, z: 0}
+  doCollisionPointCheck: 1
   AllowPlacementOnWalls: 0
   AllowPlacementOnCounters: 0
   inUse: 0
@@ -189,7 +189,7 @@ GameObject:
   m_Component:
   - component: {fileID: 86471602928430670}
   - component: {fileID: 2579696959765127520}
-  - component: {fileID: 6160141180230753798}
+  - component: {fileID: 7648418317197078082}
   m_Layer: 26
   m_Name: Reanimator
   m_TagString: PlaceableObject
@@ -232,7 +232,7 @@ MonoBehaviour:
   startingPosition: {x: 0, y: 0, z: 0}
   startingRotation: {x: 0, y: 0, z: 0}
   overrideOffset: 1
---- !u!114 &6160141180230753798
+--- !u!114 &7648418317197078082
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -263,7 +263,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: a9c9e661e9d1ca74ba6f212c5c045306,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a9c9e661e9d1ca74ba6f212c5c045306,
         type: 3}
@@ -348,10 +348,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 4967654987211956359}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a9c9e661e9d1ca74ba6f212c5c045306,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6729238018450540510}
   m_SourcePrefab: {fileID: 100100000, guid: a9c9e661e9d1ca74ba6f212c5c045306, type: 3}
 --- !u!33 &5401090447898985841 stripped
 MeshFilter:
@@ -378,9 +374,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverIcon: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  hoverTip: CAN INTERACT
-  disabledHoverIcon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  disabledHoverTip: CANT INTERACT
+  hoverTip: Hold (E) To Revive
+  disabledHoverIcon: {fileID: 0}
+  disabledHoverTip: 
   interactable: 1
   oneHandedItemAllowed: 1
   twoHandedItemAllowed: 1
@@ -428,27 +424,6 @@ MonoBehaviour:
   ladderHorizontalPosition: {fileID: 0}
   ladderPlayerPositionNode: {fileID: 0}
   usingLadder: 0
---- !u!65 &6729238018450540510
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8507453751051227246}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1071472, y: 2.6805203, z: 1.230479}
-  m_Center: {x: -0.0010235906, y: 1.3404096, z: -0.05590743}
 --- !u!4 &9032915389357050580 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a9c9e661e9d1ca74ba6f212c5c045306,
