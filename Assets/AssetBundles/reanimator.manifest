@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 354477789
+CRC: 968802403
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8742b014bc9d4b25242dcddb196b9509
+    Hash: e70b719098ccd7c3abcf6a0c23400e79
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 2ec914f4656f4d868fcd7f0bcef42037
+    Hash: 658dfb772d636e66527503e971e77115
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 8742b014bc9d4b25242dcddb196b9509
+    Hash: e70b719098ccd7c3abcf6a0c23400e79
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -29,14 +29,15 @@ ClassTypes:
 - Class: 65
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: b1a86678fffe49d34317e7b693ae7586, type: 3}
+  Script: {fileID: 11500000, guid: df8a8ec1fb4e08d01a3bd16540b76614, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: df8a8ec1fb4e08d01a3bd16540b76614, type: 3}
+  Script: {fileID: 11500000, guid: b2f79a42f90ce4aa636bf27289ebbb62, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Prefabs/Reanimator.prefab
+- Assets/Cryo/cryo-lod0/cryo_LOD0.fbx
 Dependencies: []
