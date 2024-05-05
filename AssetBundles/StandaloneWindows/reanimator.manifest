@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1741516736
+CRC: 1842816217
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1a297543965f0daa11905e1895d5ef82
+    Hash: 2dbacd0388e295eded5b542d983cd51a
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 80ee4c14b79a05b07e5f5a5e96e6df06
+    Hash: e7bb771148dff17dac216e22f8f639f6
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 1a297543965f0daa11905e1895d5ef82
+    Hash: 2dbacd0388e295eded5b542d983cd51a
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -40,6 +40,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: b2f79a42f90ce4aa636bf27289ebbb62, type: 3}
+- Class: 114
+  Script: {fileID: -1521069793, guid: e11c120cebbf4414ca226f758b85b4b8, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 213
@@ -58,6 +60,7 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.CoreModule
   ClassName: UnityEngine.Events.PersistentCallGroup
 Assets:
+- Assets/Prefabs/ReanimatorNetworkHandler.prefab
 - Assets/Cryo/cryo-lod0/Materials/cryo_ao.mat
 - Assets/Prefabs/Reanimator.prefab
 - Assets/Cryo/cryo-lod0/cryo_LOD0.fbx
