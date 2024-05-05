@@ -422,6 +422,11 @@ PrefabInstance:
       propertyPath: GlobalObjectIdHash
       value: 211927583
       objectReference: {fileID: 0}
+    - target: {fileID: 7470987696043424917, guid: 523ca78a1146ba3409e6c8a69f11526c,
+        type: 3}
+      propertyPath: AllowPlacementOnWalls
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
